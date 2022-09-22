@@ -1,0 +1,71 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient( to right bottom, #ec4949, #e9993d);
+    height: 100vh;
+    width:100vw;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+}
+
+button{
+    border:none;
+    padding: 5px 10px;
+    color:white;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width:100%;
+}
+
+.input-container{
+    display: flex;
+    min-width:50%;
+}
+
+#input{
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+    outline: none;
+}
+
+#add{
+    background-color:#e9993d;
+}
+
+#edit{
+    background-color: blue;
+}
+
+#delete{
+    background-color:#ec2c2c ;
+}
+
+#task-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#todoInput{
+    width: 80%;
+    outline:none;
+    border:none;
+}
+
+#todoDiv{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+    width:80%;
+}
